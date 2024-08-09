@@ -1,176 +1,263 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header class="cabecalho">
-        <img class="cabecalho__imagem" src="./src/images/sipderCat.jpg" alt="">
-        <ul class="cabecalho__menu">
-            <li class="cabecalho__menu__item">
-                <a href="#">Sobre os filmes</a>
+        <img class="cabecalho-imagem" src="./src/images/sipderCat.jpg" alt="">
+        <ul class="cabecalho-menu">
+            <li class="cabecalho-menu-item">
+                <a class="cabecalho-menu-item-link" href="sobre-os-filmes">Sobre os filmes</a>
             </li>
-            <li class="cabecalho__menu__item">
-                <a href="#">Personagens</a>
+            <li class="cabecalho-menu-item">
+                <a class="cabecalho-menu-item-link" href="personagens">Personagens</a>
             </li>
-            <li class="cabecalho__menu__item">
-                <a href="#">História</a>
+            <li class="cabecalho-menu-item">
+                <a class="cabecalho-menu-item-link" href="#">História</a>
             </li>
         </ul>
     </header>
 
-    <main class="content">
-        <section class="content__principal">
-            <div class="content__principal__wrote">
-                <h1 class="content__principal__wrote__title">Homem aranha no aranhaverso</h1>
-                <h2 class="content__principal__wrote__subtitle">O cabeça de teia mais querido de todos os tempos</h2>
-            </div>
-            <img class="content__principal__imagem" src="./src/images/prediosNoFundo.jpeg" alt="">
-        </section>
-
-        <section class="characters">
-            <ul class="characters__menu">
-                <li class="characters__menu__item">
-                    <h4 class="characters__menu__item__title">Miles Morales</h4>
-                    <img class="characters__menu__item__image" src="./src/gifs/miles.gif" alt="">
-                    <p class="characters__menu__item__paragraph">Miles Morales é um adolescente do Brooklyn que assume o
-                        manto do Homem-Aranha em seu universo. Ele é um jovem herói cheio de potencial, ainda
-                        descobrindo suas habilidades e seu lugar como herói. Além das habilidades tradicionais do
-                        Homem-Aranha, como força, agilidade e aderência às paredes, Miles também possui poderes únicos
-                        como invisibilidade e uma descarga bioelétrica chamada "venom blast". Seu traje preto com
-                        detalhes em vermelho reflete sua identidade distinta, e sua jornada é marcada pela busca de
-                        autoconfiança e pela responsabilidade de proteger os outros.</p>
-                </li>
-                <li class="characters__menu__item">
-                    <h4 class="characters__menu__item__title">Gwen Stacy</h4>
-                    <img class="characters__menu__item__image" src="./src/gifs/gwen.gif" alt="">
-                    <p class="characters__menu__item__paragraph">Gwen Stacy, também conhecida como Mulher-Aranha ou
-                        "Spider-Gwen", é uma heroína destemida e talentosa de um universo alternativo onde ela, e não
-                        Peter Parker, foi picada pela aranha radioativa. Ela é uma personagem ágil, inteligente e com
-                        uma atitude punk rock, muitas vezes vista tocando bateria em uma banda. Seu traje branco, preto
-                        e rosa, com capuz, é estiloso e único. Gwen luta para equilibrar sua vida como super-heroína e
-                        as responsabilidades pessoais, trazendo uma perspectiva única e refrescante ao grupo de aranhas.
-                    </p>
-                </li>
-                <li class="characters__menu__item">
-                    <h4 class="characters__menu__item__title">Peter B. Parker</h4>
-                    <img class="characters__menu__item__image" src="src/gifs/peterB.gif" alt="">
-                    <p class="characters__menu__item__paragraph">Peter B. Parker é uma versão mais velha e cansada do
-                        clássico Homem-Aranha, que já passou por altos e baixos na vida. Ele é um herói veterano, com
-                        anos de experiência em combate ao crime, mas que também carrega cicatrizes emocionais e físicas
-                        de suas lutas. Seu traje é familiar, mas ele é mais relaxado e desleixado, refletindo sua
-                        personalidade. Apesar de seu cansaço, Peter B. ainda é espirituoso, sarcástico e um mentor
-                        relutante, oferecendo conselhos valiosos enquanto tenta encontrar um novo propósito em sua vida.
-                    </p>
-                </li>
-                <li class="characters__menu__item">
-                    <h4 class="characters__menu__item__title">Penny Parker</h4>
-                    <img class="characters__menu__item__image" src="src/gifs/penny.gif" alt="">
-                    <p class="characters__menu__item__paragraph">Peni Parker é uma jovem de origem japonesa que pilota um
-                        mecha conhecido como SP//dr, ligado a ela através de uma conexão psíquica com uma aranha
-                        radioativa. Em um universo altamente tecnológico, Peni é uma prodígio científica, com grande
-                        habilidade em robótica. Seu design é inspirado em animes, e ela possui uma personalidade
-                        corajosa e determinada, sempre pronta para enfrentar desafios com seu mecha futurista. Peni e
-                        SP//dr trabalham em perfeita harmonia, formando uma parceria única entre humano e máquina.</p>
-                </li>
-                <li class="characters__menu__item">
-                    <h4 class="characters__menu__item__title">Homem aranha Noir</h4>
-                    <img class="characters__menu__item__image" src="src/gifs/spider-man-noir.gif" alt="">
-                    <p class="characters__menu__item__paragraph">O Homem-Aranha Noir é uma versão do herói originária de um
-                        universo sombrio dos anos 1930, em plena Era da Depressão. Ele é um vigilante que opera nas
-                        sombras, lutando contra o crime organizado com uma atitude endurecida pelo mundo brutal em que
-                        vive. Seu traje é preto, com um visual reminiscente dos filmes noir, incluindo um sobretudo e um
-                        chapéu fedora. Ele é durão, fala com uma linguagem antiquada e tem uma abordagem mais violenta e
-                        direta na luta contra o mal, trazendo uma estética estilizada e única para o grupo.</p>
-                </li>
-                <li class="characters__menu__item">
-                    <h4 class="characters__menu__item__title">Porco aranha</h4>
-                    <img class="characters__menu__item__image" src="src/gifs/peter-porker.gif" alt="">
-                    <p class="characters__menu__item__paragraph">Spider-Ham, também conhecido como Porco-Aranha ou Peter
-                        Porker, é uma versão antropomórfica e cômica do Homem-Aranha originária de um universo
-                        cartunesco. Ele é um porco que foi mordido por uma aranha radioativa, ganhando habilidades
-                        aracnídeas, como força aumentada, aderência às paredes e o uso de teias. Seu visual é
-                        caricatural e colorido, e ele é uma fonte constante de humor e alívio cômico, frequentemente
-                        fazendo piadas e referências absurdas. Apesar de seu estilo leve, Spider-Ham é corajoso e
-                        determinado a ajudar seus amigos a salvar o multiverso.</p>
-                </li>
-            </ul>
-
-        </section class="movies">
-        <div class="movies__content">
-            <ul class="movies__content__tab">
-                <li class="movies__content__info">
-                    <h3></h3>
-                    <img src="./src/images/capa1.png" alt="">
-                </li>
-                <li class="movies__content__info">
-                    <h3></h3>
-                    <img src="./src/images/capa2.png" alt="">
-                </li>
-            </ul>
+    <section class="content">
+        <div class="content-wrote">
+            <h1 class="content-wrote-title">Homem aranha no aranhaverso & Homem aranha através do aranhaverso</h1>
+            <h2 class="content-wrote-subtitle">O cabeça de teia mais querido de todos os tempos</h2>
         </div>
+    </section>
 
-        <section class="villains">
-            <h3>Vilões</h3>
-            <ul class="villains">
-                <li class="villains__item">
-                    <h4 class="villains__item__title">Gatuno (Prowler)</h4>
-                    <img class="villains__item__image" src="./src/gifs/prowler.gif" alt="">
-                    <p class="villains__item__description">Gatuno é um mercenário ágil e mortal, equipado com um traje
-                        de alta tecnologia que inclui garras afiadas e habilidades de camuflagem. Ele é conhecido por sua
+    <section class="characters" id="personagens">
+        <h1 class="characters-title">Personagens</h1>
+        <ul class="characters-menu">
+            <li class="characters-menu-item">
+                <div class="characters-menu-item-image">
+                    <img src="./src/gifs/miles.gif" alt="">
+                </div>
+                <div class="characters-menu-item-text">
+                    <h3>Miles Morales</h3>
+                    <p>Miles Morales é um adolescente do Brooklyn que assume
+                        o
+                        manto do Homem-Aranha em seu universo. Ele é um jovem herói cheio de potencial, ainda
+                        descobrindo suas habilidades e seu lugar como herói. Além das habilidades tradicionais
+                        do
+                        Homem-Aranha, como força, agilidade e aderência às paredes, Miles também possui poderes
+                        únicos
+                        como invisibilidade e uma descarga bioelétrica chamada "venom blast". Seu traje preto
+                        com
+                        detalhes em vermelho reflete sua identidade distinta, e sua jornada é marcada pela busca
+                        de
+                        autoconfiança e pela responsabilidade de proteger os outros.</p>
+                </div>
+            </li>
+            <li class="characters-menu-item">
+                <div class="characters-menu-item-image">
+                    <img src="./src/gifs/gwen.gif" alt="">
+                </div>
+                <div class="characters-menu-item-text">
+                    <h3>Gwen Stacy</h3>
+                    <p>Gwen Stacy, também conhecida como Mulher-Aranha ou
+                        "Spider-Gwen", é uma heroína destemida e talentosa de um universo alternativo onde ela,
+                        e
+                        não
+                        Peter Parker, foi picada pela aranha radioativa. Ela é uma personagem ágil, inteligente
+                        e
+                        com
+                        uma atitude punk rock, muitas vezes vista tocando bateria em uma banda. Seu traje
+                        branco,
+                        preto
+                        e rosa, com capuz, é estiloso e único. Gwen luta para equilibrar sua vida como
+                        super-heroína
+                        e
+                        as responsabilidades pessoais, trazendo uma perspectiva única e refrescante ao grupo de
+                        aranhas.
+                    </p>
+                </div>
+            </li>
+            <li class="characters-menu-item">
+                <div class="characters-menu-item-image">
+                    <img src="./src/gifs/peterB.gif" alt="">
+                </div>
+                <div class="characters-menu-item-text">
+                    <h3>Peter B. Parker</h3>
+                    <p>Peter B. Parker é uma versão mais velha e cansada do
+                        clássico Homem-Aranha, que já passou por altos e baixos na vida. Ele é um herói
+                        veterano,
+                        com
+                        anos de experiência em combate ao crime, mas que também carrega cicatrizes emocionais e
+                        físicas
+                        de suas lutas. Seu traje é familiar, mas ele é mais relaxado e desleixado, refletindo
+                        sua
+                        personalidade. Apesar de seu cansaço, Peter B. ainda é espirituoso, sarcástico e um
+                        mentor
+                        relutante, oferecendo conselhos valiosos enquanto tenta encontrar um novo propósito em
+                        sua
+                        vida.
+                    </p>
+                </div>
+            </li>
+            <li class="characters-menu-item">
+                <div class="characters-menu-item-image">
+                    <img src="./src/gifs/penny.gif" alt="">
+                </div>
+                <div class="characters-menu-item-text">
+                    <h3>Penny Parker</h3>
+                    <p>Peni Parker é uma jovem de origem japonesa que pilota
+                        um
+                        mecha conhecido como SP//dr, ligado a ela através de uma conexão psíquica com uma aranha
+                        radioativa. Em um universo altamente tecnológico, Peni é uma prodígio científica, com
+                        grande
+                        habilidade em robótica. Seu design é inspirado em animes, e ela possui uma personalidade
+                        corajosa e determinada, sempre pronta para enfrentar desafios com seu mecha futurista.
+                        Peni
+                        e
+                        SP//dr trabalham em perfeita harmonia, formando uma parceria única entre humano e
+                        máquina.
+                    </p>
+                </div>
+            </li>
+            <li class="characters-menu-item">
+                <div class="characters-menu-item-image">
+                    <img src="./src/gifs/spider-man-noir.gif" alt="">
+                </div>
+                <div class="characters-menu-item-text">
+                    <h3>Homem A. Noir</h3>
+                    <p>O Homem-Aranha Noir é uma versão do herói originária
+                        de um
+                        universo sombrio dos anos 1930, em plena Era da Depressão. Ele é um vigilante que opera
+                        nas
+                        sombras, lutando contra o crime organizado com uma atitude endurecida pelo mundo brutal
+                        em
+                        que
+                        vive. Seu traje é preto, com um visual reminiscente dos filmes noir, incluindo um
+                        sobretudo
+                        e um
+                        chapéu fedora. Ele é durão, fala com uma linguagem antiquada e tem uma abordagem mais
+                        violenta e
+                        direta na luta contra o mal, trazendo uma estética estilizada e única para o grupo.</p>
+                </div>
+            </li>
+            <li class="characters-menu-item">
+                <div class="characters-menu-item-image">
+                    <img src="./src/gifs/peter-porker.gif" alt="">
+                </div>
+                <div class="characters-menu-item-text">
+                    <h3>Porco aranha</h3>
+                    <p>Spider-Ham, também conhecido como Porco-Aranha ou
+                        Peter
+                        Porker, é uma versão antropomórfica e cômica do Homem-Aranha originária de um universo
+                        cartunesco. Ele é um porco que foi mordido por uma aranha radioativa, ganhando
+                        habilidades
+                        aracnídeas, como força aumentada, aderência às paredes e o uso de teias. Seu visual é
+                        caricatural e colorido, e ele é uma fonte constante de humor e alívio cômico,
+                        frequentemente
+                        fazendo piadas e referências absurdas. Apesar de seu estilo leve, Spider-Ham é corajoso
+                        e
+                        determinado a ajudar seus amigos a salvar o multiverso.</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section class="villains">
+        <h1 class="villains-title">Vilões</h1>
+        <ul class="villains-menu">
+            <li class="villains-menu-item">
+                <div class="villains-menu-item-image">
+                    <img src="./src/gifs/prowler.gif" alt="">
+                </div>
+                <div class="villains-menu-item-text">
+                    <h3>Gatuno (Prowler)</h3>
+                    <p>Gatuno é um mercenário ágil e mortal, equipado com um traje
+                        de alta tecnologia que inclui garras afiadas e habilidades de camuflagem. Ele é conhecido por
+                        sua
                         velocidade e destreza, sendo um mestre em operações furtivas e ataques rápidos. Seu visual
                         intimidador e métodos eficientes fazem dele um adversário formidável, especialmente nas sombras.
                     </p>
-                </li>
-                <li class="villains__item">
-                    <h4 class="villains__item__title">Rei do crime (Kingpin)</h4>
-                    <img class="villains__item__image" src="src/gifs/kingpin.gif" alt="">
-                    <p class="villains__item__description">Wilson Fisk, mais conhecido como Rei do Crime, é um dos
-                        vilões mais icônicos do Homem-Aranha. Ele é um gigante tanto em tamanho quanto em influência, com uma
+                </div>
+            </li>
+            <li class="villains-menu-item">
+                <div class="villains-menu-item-image">
+                    <img src="./src/gifs/kingpin.gif" alt="">
+                </div>
+                <div class="villains-menu-item-text">
+                    <h3>Rei do crime (Kingpin)</h3>
+                    <p>Wilson Fisk, mais conhecido como Rei do Crime, é um dos
+                        vilões mais icônicos do Homem-Aranha. Ele é um gigante tanto em tamanho quanto em influência,
+                        com uma
                         força física incrível e uma mente estratégica afiada. Apesar de sua aparência massiva, ele é
                         surpreendentemente ágil e letal em combate. Fisk controla um vasto império criminal em Nova
-                        York, sendo uma figura poderosa e temida no submundo.</p>
-                </li>
-                <li class="villains__item">
-                    <h4 class="villains__item__title">Doutora Octopus (Dr. Octopus)</h4>
-                    <img class="villains__item__image" src="src/gifs/dra-octavius.gif" alt="">
-                    <p class="villains__item__description">Esta versão alternativa do Dr. Octopus é uma cientista
+                        York, sendo poderoso e temido no submundo.</p>
+                </div>
+            </li>
+            <li class="villains-menu-item">
+                <div class="villains-menu-item-image">
+                    <img src="./src/gifs/dra-octavius.gif" alt="">
+                </div>
+                <div class="villains-menu-item-text">
+                    <h3>Doutora Octopus (Dr. Octopus)</h3>
+                    <p>Esta versão alternativa do Dr. Octopus é uma cientista
                         extremamente inteligente e perigosa. Ela utiliza um conjunto de tentáculos mecânicos altamente
                         avançados que são controlados diretamente por seu cérebro, permitindo movimentos rápidos e
                         precisos. Os tentáculos podem ser usados tanto para ataque quanto para manipular equipamentos e
-                        realizar experimentos complexos. Sua aparência é marcante, com os tentáculos criando uma
-                        silhueta ameaçadora.</p>
-                </li>
-                <li class="villains__item">
-                    <h4 class="villains__item__title">O Mancha (The Spot)</h4>
-                    <img class="villains__item__image" src="src/gifs/the-spot.gif" alt="">
-                    <p class="villains__item__description">O Mancha é um vilão peculiar e único, com o corpo coberto por
+                        realizar experimentos complexos.</p>
+                </div>
+            </li>
+            <li class="villains-menu-item">
+                <div class="villains-menu-item-image">
+                    <img src="./src/gifs/the-spot.gif" alt="">
+                </div>
+                <div class="villains-menu-item-text">
+                    <h3>O Mancha (The Spot)</h3>
+                    <p>O Mancha é um vilão peculiar e único, com o corpo coberto por
                         manchas negras que funcionam como portais interdimensionais. Essas manchas permitem que ele
                         teleporte partes do corpo ou objetos, tornando-o um adversário incrivelmente imprevisível. Ele
                         pode, por exemplo, socar através de uma mancha em seu torso e fazer o golpe surgir de outra
-                        mancha a metros de distância. Sua aparência excêntrica e poderes bizarros o tornam uma figura
-                        tanto cômica quanto ameaçadora.</p>
-                </li>
-                <li class="villains__item">
-                    <h4 class="villains__item__title">Homem aranha 2099 (Miguel O'Hara)</h4>
-                    <img class="villains__item__image" src="src/gifs/miguel-ohara.gif" alt="">
-                    <p class="villains__item__description">Miguel O'Hara é o Homem-Aranha do ano de 2099, um futuro
+                        mancha a metros de distância.</p>
+                </div>
+            </li>
+            <li class="villains-menu-item">
+                <div class="villains-menu-item-image">
+                    <img src="./src/gifs/miguel-ohara.gif" alt="">
+                </div>
+                <div class="villains-menu-item-text">
+                    <h3 class="villains-item-title">Homem aranha 2099 (Miguel O'Hara)</h3>
+                    <p class="villains-item-description">Miguel O'Hara é o Homem-Aranha do ano de 2099, um futuro
                         distópico onde ele combate o crime em uma Nova York tecnológica e opressiva. Diferente do
                         Homem-Aranha tradicional, Miguel tem poderes que incluem garras retráteis, visão aguçada e
                         habilidades avançadas de escalada. Seu traje é equipado com tecnologia futurista, incluindo um
                         planador de teia. Ele é sério e determinado, com uma abordagem pragmática e muitas vezes
                         solitária para proteger sua realidade.</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section class="movies">
+        <h1 class="movies-title">Capas</h1>
+        <div class="movies-content">
+            <ul class="movies-content-tab">
+                <li class="movies-content-info">
+                    <h3 class="movies-content-info-title">Homem aranha no aranhaverso</h3>
+                    <img class="movies-content-info-img" src="./src/images/capa1.png" alt="">
+                </li>
+                <li class="movies-content-info">
+                    <h3 class="movies-content-info-title">Homem aranha através do aranhaverso</h3>
+                    <img class="movies-content-info-img" src="./src/images/capa2.png" alt="">
                 </li>
             </ul>
-        </section>
-    </main>
+        </div>
+    </section>
 
-    <footer>
+    <footer class="rodape">
         <p> &copy; Todos os direitos reservados</p>
     </footer>
 </body>
